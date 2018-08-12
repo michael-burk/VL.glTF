@@ -465,10 +465,10 @@
               <Pin Id="EiMttUdBTQUL64VIpgUubv" Name="Node IDs" Kind="OutputPin" />
               <Pin Id="VJ4qM5Ol5PtNTnIz5UBqbA" Name="Transform" Kind="OutputPin" />
               <Pin Id="NSsTYgCxakVQFomxIdvBhI" Name="ID" Kind="OutputPin" />
+              <Pin Id="CSKDN87Us27NstaJsc0BQN" Name="Output" Kind="OutputPin" />
               <Pin Id="VNf6l7G1bVtMUDEBm4PDY8" Name="Has Mesh" Kind="OutputPin" />
               <Pin Id="QeUPLQzt3afObqy1bKuF8u" Name="Node Mesh" Kind="OutputPin" />
               <Pin Id="OAScMeEY5PGO6uQo6erFsy" Name="Primitive Count" Kind="OutputPin" />
-              <Pin Id="CSKDN87Us27NstaJsc0BQN" Name="Output" Kind="OutputPin" />
               <Pin Id="EPcz8jAM9OoOY2u9SfCtuq" Name="Animations" Kind="OutputPin" />
             </Node>
           </Canvas>
@@ -491,7 +491,6 @@
             <Fragment Id="PFHVN6bnNIuQIKG8gSh0F8" Patch="Ewk9K0o9761MAhBLqCGnun" Enabled="true" />
             <Fragment Id="UU4g2qVDLn0NcGnI2VvoWF" Patch="Baqgi0hyOOyQCwU9nja7vD" Enabled="true" />
           </ProcessDefinition>
-          <Pin Id="Kbx0uCdJ2nzLeJ9JLtDBpE" Name="Node Mesh" Kind="OutputPin" />
         </Patch>
       </Node>
       <!--
