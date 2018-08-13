@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta36.dtd" >
-   <PATCH nodename="C:\vvvv\VL\VL.glTF\vvvv\girlpower\demo_dx11.v4p" systemname="demo_dx11" filename="C:\vvvv\VL\VL.glTF\vvvv\girlpower\demo_dx11.v4p" scrollx="0" scrolly="0">
+   <PATCH nodename="C:\vvvv\VL\VL.glTF\vvvv\girlpower\demo_dx11.v4p" systemname="demo_dx11" filename="C:\vvvv\VL\VL.glTF\vvvv\girlpower\demo_dx11.v4p" scrollx="1515" scrolly="375">
    <BOUNDS type="Window" left="15405" top="360" width="12900" height="14505">
    </BOUNDS>
    <PACK Name="addonpack" Version="36.0.0">
@@ -297,7 +297,7 @@
    <LINK srcnodeid="347" srcpinname="Output" dstnodeid="346" dstpinname="MaterialSetup">
    </LINK>
    <NODE systemname="ControlTextures (SuperPhysical Material)" filename="%VVVV%\packs\SuperPhysical\nodes\vl\VVVV.Value.SuperPhysical.vl" nodename="ControlTextures (SuperPhysical Material)" componentmode="Hidden" id="351">
-   <BOUNDS type="Node" left="8295" top="14475" width="8925" height="270">
+   <BOUNDS type="Node" left="8595" top="14730" width="8925" height="270">
    </BOUNDS>
    <PIN pinname="Output" visible="1">
    </PIN>
@@ -311,7 +311,7 @@
    </PIN>
    <PIN pinname="TangentDir" slicecount="1" visible="1" values="-1">
    </PIN>
-   <PIN pinname="AOMap" visible="1" slicecount="39" values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">
+   <PIN pinname="AOMap" visible="1" slicecount="39" values="4545516320,4545517728,4545509984,0,0,0,0,0,0,0,0,0,0,0,0,0,4545516320,4545517728,4545509984,0,0,0,0,0,0,0,0,0,0,0,0,0,4545516320,4545517728,4545509984,0,0,0,0">
    </PIN>
    <PIN pinname="RoughnessMap" visible="1" slicecount="39" values="1650815072,1650817888,1650821408,1650823520,1650813664,1650816480,1650817184,1369493792,1369488160,1369490272,1369488864,1369491680,1369485344,1369483936,1369481824,1369479008,1369493088,1369480416,1369482528,1369735136,1369731616,1369740768,1369733024,1369735840,1369725984,1369733728,1369739360,1369732320,1369737952,1369727392,1262586976,1262588384,1262598944,1262578528,1262599648,1262573600,1262594720,1262600352,1262596128">
    </PIN>
@@ -771,7 +771,7 @@
    </PIN>
    </NODE>
    <NODE systemname="LightHelper (SuperPhysical)" filename="%VVVV%\packs\SuperPhysical\nodes\modules\LIGHT\LightHelper (SuperPhysical).v4p" nodename="LightHelper (SuperPhysical)" componentmode="Hidden" id="426">
-   <BOUNDS type="Node" left="7995" top="17700" width="100" height="100">
+   <BOUNDS type="Node" left="6585" top="17775" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>
@@ -819,17 +819,17 @@
    </BOUNDS>
    <PIN pinname="DirectionalLights" visible="1">
    </PIN>
-   <PIN pinname="Enabled" slicecount="1" values="1" visible="1">
+   <PIN pinname="Enabled" slicecount="1" visible="1" values="1">
    </PIN>
    <PIN pinname="Scale" slicecount="1" values="2.51">
    </PIN>
-   <PIN pinname="Distance" slicecount="1" values="2.87" visible="1">
+   <PIN pinname="Distance" slicecount="1" visible="1" values="2.87">
    </PIN>
-   <PIN pinname="Pitch" slicecount="1" values="0.25" visible="1">
+   <PIN pinname="Pitch" slicecount="1" visible="1" values="0.25">
    </PIN>
    <PIN pinname="Color" visible="1">
    </PIN>
-   <PIN pinname="Range" slicecount="1" values="5" visible="1">
+   <PIN pinname="Range" slicecount="1" visible="1" values="5">
    </PIN>
    <PIN pinname="Yaw" slicecount="1" values="0">
    </PIN>
@@ -837,7 +837,7 @@
    </PIN>
    <PIN pinname="Helper" slicecount="1" values="0">
    </PIN>
-   <PIN pinname="LightIntensity" slicecount="1" values="2" visible="1">
+   <PIN pinname="LightIntensity" slicecount="1" visible="1" values="2">
    </PIN>
    <PIN pinname="SpotLights" visible="1">
    </PIN>
@@ -1157,11 +1157,11 @@
    <LINK srcnodeid="328" srcpinname="Depth Buffer" dstnodeid="444" dstpinname="Depth Buffer">
    </LINK>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="445">
-   <BOUNDS type="Box" left="5475" top="21360" width="480" height="480">
+   <BOUNDS type="Box" left="5775" top="21480" width="480" height="480">
    </BOUNDS>
-   <BOUNDS type="Node" left="5475" top="21360" width="0" height="0">
+   <BOUNDS type="Node" left="5775" top="21480" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="1">
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
@@ -1171,7 +1171,7 @@
    </PIN>
    <PIN pinname="Behavior" slicecount="1" values="Toggle">
    </PIN>
-   <PIN pinname="X Input Value" slicecount="1" values="1">
+   <PIN pinname="X Input Value" slicecount="1" values="0">
    </PIN>
    </NODE>
    <LINK srcnodeid="445" srcpinname="Y Output Value" dstnodeid="444" dstpinname="Enabled">
@@ -1209,7 +1209,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="1530" top="780" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="3">
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="60">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
@@ -1275,8 +1275,6 @@
    </LINKPOINT>
    </LINK>
    <LINK srcnodeid="374" srcpinname="Output" dstnodeid="347" dstpinname="Color">
-   </LINK>
-   <LINK srcnodeid="351" srcpinname="Output" dstnodeid="347" dstpinname="ControlTextures">
    </LINK>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="500">
    <BOUNDS type="Box" left="17550" top="13395" width="480" height="480">
@@ -1463,6 +1461,8 @@
    </BOUNDS>
    <BOUNDS type="Box" left="9450" top="13860" width="3000" height="3000">
    </BOUNDS>
+   <PIN pinname="Pointer" visible="1">
+   </PIN>
    </NODE>
    <LINK srcnodeid="359" srcpinname="Texture Out" dstnodeid="584" dstpinname="Texture In">
    </LINK>
@@ -1506,47 +1506,15 @@
    <LINKPOINT x="13800" y="11903">
    </LINKPOINT>
    </LINK>
-   <NODE systemname="ToPointer (DX11.Texture 2d)" filename="%VVVV%\packs\SuperPhysical\nodes\plugins\PointerNodes.dll" nodename="ToPointer (DX11.Texture 2d)" componentmode="Hidden" id="587">
-   <BOUNDS type="Node" left="14520" top="13830" width="100" height="100">
-   </BOUNDS>
-   <BOUNDS type="Box" left="14520" top="13830" width="3000" height="3000">
-   </BOUNDS>
-   </NODE>
-   <LINK srcnodeid="381" srcpinname="Y Output Value" dstnodeid="587" dstpinname="Apply" hiddenwhenlocked="1" linkstyle="Bezier">
-   <LINKPOINT x="18630" y="11948">
-   </LINKPOINT>
-   <LINKPOINT x="15315" y="11948">
-   </LINKPOINT>
-   </LINK>
-   <LINK srcnodeid="370" srcpinname="Texture Out" dstnodeid="587" dstpinname="Texture In">
-   </LINK>
-   <LINK srcnodeid="587" srcpinname="Pointer" dstnodeid="351" dstpinname="AOMap">
-   </LINK>
-   <NODE systemname="ToPointer (DX11.Texture 2d)" filename="%VVVV%\packs\SuperPhysical\nodes\plugins\PointerNodes.dll" nodename="ToPointer (DX11.Texture 2d)" componentmode="Hidden" id="588">
-   <BOUNDS type="Node" left="15750" top="13740" width="100" height="100">
-   </BOUNDS>
-   <BOUNDS type="Box" left="15750" top="13740" width="3000" height="3000">
-   </BOUNDS>
-   </NODE>
-   <LINK srcnodeid="381" srcpinname="Y Output Value" dstnodeid="588" dstpinname="Apply" hiddenwhenlocked="1" linkstyle="Bezier">
-   <LINKPOINT x="18645" y="11903">
-   </LINKPOINT>
-   <LINKPOINT x="16530" y="11903">
-   </LINKPOINT>
-   </LINK>
-   <LINK srcnodeid="412" srcpinname="Texture Out" dstnodeid="588" dstpinname="Texture In">
-   </LINK>
-   <LINK srcnodeid="588" srcpinname="Pointer" dstnodeid="351" dstpinname="EmissiveTex">
-   </LINK>
    <NODE id="590" systemname="Hierarchy (glTF)" filename="vl\VVVV.glTF.vl" nodename="Hierarchy (VVVV)" componentmode="Hidden">
    <BOUNDS type="Node" left="3360" top="6705" width="2400" height="270">
    </BOUNDS>
    <PIN pinname="Animation" visible="1" slicecount="1" values="||">
    </PIN>
+   <PIN pinname="Time" visible="1" slicecount="1" values="13.44">
+   </PIN>
    </NODE>
    <LINK srcnodeid="590" srcpinname="Node Mesh" dstnodeid="337" dstpinname="Input">
-   </LINK>
-   <LINK srcnodeid="315" srcpinname="Output" dstnodeid="590" dstpinname="Time">
    </LINK>
    <LINK srcnodeid="590" srcpinname="Transform" dstnodeid="473" dstpinname="Input">
    </LINK>
@@ -1570,30 +1538,46 @@
    </LINK>
    <LINK srcnodeid="478" srcpinname="Output" dstnodeid="591" dstpinname="Input">
    </LINK>
-   <NODE systemname="Rekorder (Windows)" filename="%VVVV%\lib\nodes\modules\Windows\Rekorder (Windows).v4p" nodename="Rekorder (Windows)" componentmode="Hidden" id="595">
-   <BOUNDS type="Node" left="6930" top="6330" width="100" height="100">
-   </BOUNDS>
-   <PIN pinname="Last Saved File" visible="1">
-   </PIN>
-   </NODE>
-   <NODE nodename="IOBox (String)" componentmode="InABox" id="596">
-   <BOUNDS type="Box" left="7320" top="6960" width="795" height="240">
-   </BOUNDS>
-   <BOUNDS type="Node" left="7320" top="6960" width="0" height="0">
-   </BOUNDS>
-   <PIN pinname="Default" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="File Mask" slicecount="1" values="|All Files (*.gif)||*.gif|">
-   </PIN>
-   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
-   </PIN>
-   <PIN pinname="String Type" slicecount="1" values="Filename">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="595" srcpinname="Last Saved File" dstnodeid="596" dstpinname="Input String">
+   <LINK srcnodeid="473" srcpinname="Output" dstnodeid="516" dstpinname="Transform In">
    </LINK>
    <LINK srcnodeid="422" srcpinname="Output Node" dstnodeid="590" dstpinname="Animation">
    </LINK>
-   <LINK srcnodeid="473" srcpinname="Output" dstnodeid="516" dstpinname="Transform In">
+   <NODE systemname="ToPointer (DX11.Texture 2d)" filename="%VVVV%\packs\SuperPhysical\nodes\plugins\PointerNodes.dll" nodename="ToPointer (DX11.Texture 2d)" componentmode="Hidden" id="600">
+   <BOUNDS type="Node" left="14520" top="13830" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="14520" top="13830" width="3000" height="3000">
+   </BOUNDS>
+   </NODE>
+   <LINK srcnodeid="381" srcpinname="Y Output Value" dstnodeid="600" dstpinname="Apply" hiddenwhenlocked="1" linkstyle="Bezier">
+   <LINKPOINT x="18630" y="11948">
+   </LINKPOINT>
+   <LINKPOINT x="15315" y="11948">
+   </LINKPOINT>
+   </LINK>
+   <LINK srcnodeid="370" srcpinname="Texture Out" dstnodeid="600" dstpinname="Texture In">
+   </LINK>
+   <LINK srcnodeid="600" srcpinname="Pointer" dstnodeid="351" dstpinname="AOMap">
+   </LINK>
+   <NODE systemname="ToPointer (DX11.Texture 2d)" filename="%VVVV%\packs\SuperPhysical\nodes\plugins\PointerNodes.dll" nodename="ToPointer (DX11.Texture 2d)" componentmode="Hidden" id="601">
+   <BOUNDS type="Node" left="15750" top="13740" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="15750" top="13740" width="3000" height="3000">
+   </BOUNDS>
+   <PIN pinname="Pointer" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="381" srcpinname="Y Output Value" dstnodeid="601" dstpinname="Apply" hiddenwhenlocked="1" linkstyle="Bezier">
+   <LINKPOINT x="18645" y="11903">
+   </LINKPOINT>
+   <LINKPOINT x="16530" y="11903">
+   </LINKPOINT>
+   </LINK>
+   <LINK srcnodeid="412" srcpinname="Texture Out" dstnodeid="601" dstpinname="Texture In">
+   </LINK>
+   <LINK srcnodeid="601" srcpinname="Pointer" dstnodeid="351" dstpinname="EmissiveTex">
+   </LINK>
+   <LINK srcnodeid="315" srcpinname="Output" dstnodeid="590" dstpinname="Time">
+   </LINK>
+   <LINK srcnodeid="351" srcpinname="Output" dstnodeid="347" dstpinname="ControlTextures">
    </LINK>
    </PATCH>
