@@ -1,10 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="GB2VxUl5VdhM5rsl5IbjQg" Version="0.79">
+<Document xmlns:p="property" Id="GB2VxUl5VdhM5rsl5IbjQg" Version="0.93">
   <NugetDependency Id="RKFCmk1Lg5EP3I4IQegLTw" Location="VL.CoreLib" Version="0.35.21" />
   <NugetDependency Id="U2JwHqMJLyGLDs97lM6eZ6" Location="VL.CoreLib.VVVV" Version="0.35.21" />
-  <NugetDependency Id="Q18ZLENm9gzPhBnFnztPMP" Location="VL.Core" Version="0.35.21" />
   <Patch Id="Th8hpfHvBF4Lk6VOwDCc9D">
-    <Canvas Id="NtZT52Xp5qNOXK0fF2H7kv" DefaultCategory="VVVV.glTF">
+    <Canvas Id="NtZT52Xp5qNOXK0fF2H7kv" DefaultCategory="VVVV.glTF" CanvasType="FullCategory">
       <!--
 
     ************************ glTF ************************
@@ -19,11 +18,11 @@
           <Patch Id="ESJZDDS0I02LAWDOx9RJVV" Name="Create" />
           <Patch Id="OkqGvJfa3PDOppp4PFQghD" Name="Update">
             <Pin Id="LnSSUPlIiKfOvVNB3QKm2t" Name="Filename" Kind="InputPin" Bounds="156,165" />
-            <Pin Id="R60GQ6vV4y9MQeL0xv7Iao" Name="Load" Kind="InputPin" Bounds="287,177" />
             <Pin Id="RZqOjKW8k4sOjyTTX03sc0" Name="Output" Kind="OutputPin" Bounds="179,263" />
             <Pin Id="LXMAcHdxX3yPSRfDfNUO3o" Name="On Completed" Kind="OutputPin" Bounds="619,354" />
+            <Pin Id="R60GQ6vV4y9MQeL0xv7Iao" Name="Load" Kind="InputPin" Bounds="287,177" />
           </Patch>
-          <Canvas Id="C4yd3S6BFv9NWqJ2WO3OFi">
+          <Canvas Id="C4yd3S6BFv9NWqJ2WO3OFi" CanvasType="Group">
             <Node Bounds="238,261,125,13" Id="EtqDJdU17GpN3imZWJKtNJ">
               <p:NodeReference LastCategoryFullName="glTF" LastSymbolSource="VL.glTF.vl" LastDependency="VVVV.3d.glTF2.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -67,7 +66,7 @@
           <FullNameCategoryReference ID="Primitive" />
         </p:NodeReference>
         <Patch Id="LI8azoKTclfL6TF8F3aWES">
-          <Canvas Id="CE36i85qZjkNYEE64W8QrJ">
+          <Canvas Id="CE36i85qZjkNYEE64W8QrJ" CanvasType="Group">
             <Node Bounds="278,173,492,20" Id="CCWugCJAhWlMldOq5chFuO">
               <p:NodeReference LastCategoryFullName="glTF" LastSymbolSource="VL.glTF.vl" LastDependency="VVVV.3d.glTF2.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -100,14 +99,14 @@
           </Canvas>
           <Patch Id="M2whFEJMVWtLKMiLix0awG" Name="Create" />
           <Patch Id="Orq5hSR2Ut3LRtQmWiIRlq" Name="Update">
-            <Pin Id="Nla6Y3e2b35NW3QEaO4NFV" Name="Input" Kind="InputPin" Bounds="281,135" />
-            <Pin Id="Ri7hyshzVlAMnxhkstZR3h" Name="Index" Kind="InputPin" Bounds="425,139" />
             <Pin Id="ERTtE06428JPRZsCiLe6u2" Name="Basecolor Texture" Kind="OutputPin" Bounds="272,239" />
             <Pin Id="CppRkPdRsXfNur1URW15Ik" Name="Basecolor Factors" Kind="OutputPin" Bounds="300,210" />
+            <Pin Id="Nla6Y3e2b35NW3QEaO4NFV" Name="Input" Kind="InputPin" Bounds="281,135" />
             <Pin Id="UpegyqlQG6QL2nBPRq2u3t" Name="MetallicRoughness Texture" Kind="OutputPin" />
             <Pin Id="BmAgJJsZE6VLPIsQAdwz0U" Name="Metallic Factor" Kind="OutputPin" />
             <Pin Id="NJittUoS52eMZCLcvOftw1" Name="Roughness Factor" Kind="OutputPin" />
             <Pin Id="U2xFdnANheFNT9pD6wewQc" Name="Emissive Texture" Kind="OutputPin" />
+            <Pin Id="Ri7hyshzVlAMnxhkstZR3h" Name="Index" Kind="InputPin" Bounds="425,139" />
             <Pin Id="SMsTKxo8PjUPJ11oI72BdS" Name="Normal Texture" Kind="OutputPin" />
             <Pin Id="AGCDI17ShoWN7fgg9I7a5k" Name="Occlusion Texture" Kind="OutputPin" />
           </Patch>
@@ -147,7 +146,7 @@
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
         <Patch Id="RKBftXcLAxdLRKajv4XvPJ">
-          <Canvas Id="KXnSZJaRvmnQTCPyTjvsqV">
+          <Canvas Id="KXnSZJaRvmnQTCPyTjvsqV" CanvasType="Group">
             <Node Bounds="296,235,191,20" Id="IUgXWo9ihtlOe8H892mzCB">
               <p:NodeReference LastCategoryFullName="glTF" LastSymbolSource="VL.glTF.vl" LastDependency="VVVV.3d.glTF2.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -180,14 +179,14 @@
           </Canvas>
           <Patch Id="BmdyXz1V7BQL2gudR3Q56D" Name="Create" />
           <Patch Id="VpxyqvYeWXyMdXmP9nw6PL" Name="Update">
+            <Pin Id="VNtBJJ7isqpQbWqkmUzPFE" Name="Vertices" Kind="OutputPin" />
             <Pin Id="S8WIMNm2cTpMnMnKax8kJC" Name="Input" Kind="InputPin" Bounds="296,196" />
+            <Pin Id="O89Itdt9ygwMwZ8hZMoWl1" Name="Normals" Kind="OutputPin" Bounds="416,289" />
+            <Pin Id="ULWJfhbU6A0N6G4ItoyX49" Name="Tangents" Kind="OutputPin" Bounds="377,288" />
+            <Pin Id="UH9Gn5nLJBsMouPtkB2AAf" Name="UVs" Kind="OutputPin" />
+            <Pin Id="Kydk65jyfX5My6t8L9j7Cu" Name="Meshes" Kind="InputPin" Bounds="487,208" />
             <Pin Id="Qsz6a7JFdmUNBnqKO8cEVY" Name="Indices" Kind="OutputPin" />
             <Pin Id="Eqo7FisyJ7wP0LZ5Uy4JwR" Name="Material ID" Kind="OutputPin" />
-            <Pin Id="VNtBJJ7isqpQbWqkmUzPFE" Name="Vertices" Kind="OutputPin" />
-            <Pin Id="UH9Gn5nLJBsMouPtkB2AAf" Name="UVs" Kind="OutputPin" />
-            <Pin Id="O89Itdt9ygwMwZ8hZMoWl1" Name="Normals" Kind="OutputPin" Bounds="416,289" />
-            <Pin Id="Kydk65jyfX5My6t8L9j7Cu" Name="Meshes" Kind="InputPin" Bounds="487,208" />
-            <Pin Id="ULWJfhbU6A0N6G4ItoyX49" Name="Tangents" Kind="OutputPin" Bounds="377,288" />
             <Pin Id="Ewc02yyYXqYQcxgfzHosUf" Name="Joints" Kind="OutputPin" Bounds="661,289" />
             <Pin Id="TI4Y9OFl2whO8aytp2x9cU" Name="Weights" Kind="OutputPin" Bounds="713,288" />
           </Patch>
@@ -227,7 +226,7 @@
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
         <Patch Id="AcWNopPU0PgNYqrw5gHT2b">
-          <Canvas Id="JzP1KFUm3D7MD7Rw55rDrI">
+          <Canvas Id="JzP1KFUm3D7MD7Rw55rDrI" CanvasType="Group">
             <Node Bounds="342,242,348,20" Id="VO4fIQmNADSNryICTG7fUy">
               <p:NodeReference LastCategoryFullName="glTF" LastSymbolSource="VL.glTF.vl" LastDependency="VVVV.3d.glTF2.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -258,8 +257,8 @@
           </Canvas>
           <Patch Id="StdCrAEKrgtNVSET8yQA5i" Name="Create" />
           <Patch Id="E4UdqaHbTffLe6eoUCP8lS" Name="Update">
-            <Pin Id="QSpUk88LkoZPiJS1b9FCZg" Name="Input" Kind="InputPin" />
             <Pin Id="FVKAhvWH29aOXqSZiJMbUy" Name="Copyright" Kind="OutputPin" />
+            <Pin Id="QSpUk88LkoZPiJS1b9FCZg" Name="Input" Kind="InputPin" />
             <Pin Id="PEuEffP6lTbNmPxJpt73KW" Name="Generator" Kind="OutputPin" />
             <Pin Id="ETqrOOIIWB0OCjXQRP3kco" Name="Version" Kind="OutputPin" />
             <Pin Id="E2vG6asbWPgO8xiD6v5uCm" Name="Min Version" Kind="OutputPin" />
@@ -302,7 +301,7 @@
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
         <Patch Id="SiuhoRULC1lNCKQeFTwB4P">
-          <Canvas Id="OIqrNCuGaG1Oh9QrgvK6Ha">
+          <Canvas Id="OIqrNCuGaG1Oh9QrgvK6Ha" CanvasType="Group">
             <Node Bounds="218,278,296,13" Id="I4WKdGmOHLUP6h2O19mULn">
               <p:NodeReference LastCategoryFullName="glTF" LastSymbolSource="VL.glTF.vl" LastDependency="VVVV.3d.glTF2.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -348,18 +347,18 @@
           <Patch Id="OQYCfAkVdnQLtvyLgOBaTa" Name="Update">
             <Pin Id="UAF5bYU9a7FNa8NI8kmqUB" Name="Input" Kind="InputPin" />
             <Pin Id="KtcGuG7WCvaNBwEAcYGq4k" Name="Name" Kind="OutputPin" Bounds="375,318" />
-            <Pin Id="JWIIxLSFb52PPc70djdR2Y" Name="Node Name" Kind="OutputPin" Bounds="487,314" />
-            <Pin Id="D8wnvKY13KhNlgj3EtHPxg" Name="Node Transform" Kind="OutputPin" Bounds="577,313" />
-            <Pin Id="VexBOThgkMaM4J0dUNbzlZ" Name="Node Mesh" Kind="OutputPin" Bounds="561,321" />
-            <Pin Id="JSDD3PtVzk8Oo7D7YPQKTU" Name="Time" Kind="InputPin" Bounds="456,236" />
-            <Pin Id="Q41WWDBJl0zPSTW2egk5OW" Name="Node Path" Kind="InputPin" Bounds="408,199" />
-            <Pin Id="B2F4sM2TcfVPD2fal9q6fk" Name="Transform" Kind="InputPin" Bounds="500,193" />
-            <Pin Id="Sgp2WAL6wyPLMvE24ATMPI" Name="Camera Name" Kind="OutputPin" Bounds="675,313" />
-            <Pin Id="A3SJrQJUFEKL51kPf6sDO5" Name="Camera Transform" Kind="OutputPin" Bounds="754,308" />
-            <Pin Id="BrJrsYR8MahLXq8YWLS7qC" Name="Camera ID" Kind="OutputPin" Bounds="570,355" />
             <Pin Id="NzmCrxy2agTNgDTIahNL1m" Name="Joint Matrices" Kind="OutputPin" Bounds="255,396" />
             <Pin Id="Qr4PUkN2cf5OLdV79ND8lQ" Name="Scene" Kind="InputPin" Bounds="219,168" />
+            <Pin Id="JWIIxLSFb52PPc70djdR2Y" Name="Node Name" Kind="OutputPin" Bounds="487,314" />
             <Pin Id="D7FcV0dQV9XMO0rjp5sZlv" Name="Animation" Kind="InputPin" Bounds="316,244" />
+            <Pin Id="Q41WWDBJl0zPSTW2egk5OW" Name="Node Path" Kind="InputPin" Bounds="408,199" />
+            <Pin Id="VexBOThgkMaM4J0dUNbzlZ" Name="Node Mesh" Kind="OutputPin" Bounds="561,321" />
+            <Pin Id="B2F4sM2TcfVPD2fal9q6fk" Name="Transform" Kind="InputPin" Bounds="500,193" />
+            <Pin Id="D8wnvKY13KhNlgj3EtHPxg" Name="Node Transform" Kind="OutputPin" Bounds="577,313" />
+            <Pin Id="JSDD3PtVzk8Oo7D7YPQKTU" Name="Time" Kind="InputPin" Bounds="456,236" />
+            <Pin Id="Sgp2WAL6wyPLMvE24ATMPI" Name="Camera Name" Kind="OutputPin" Bounds="675,313" />
+            <Pin Id="BrJrsYR8MahLXq8YWLS7qC" Name="Camera ID" Kind="OutputPin" Bounds="570,355" />
+            <Pin Id="A3SJrQJUFEKL51kPf6sDO5" Name="Camera Transform" Kind="OutputPin" Bounds="754,308" />
           </Patch>
           <ProcessDefinition Id="MhlJNyEUozxPZ08QAvBJ1G">
             <Fragment Id="MHcPCoXUnw5OEK21D5YGRV" Patch="UZXRKR2UYyxMCLr2D8ipCk" Enabled="true" />
@@ -406,7 +405,7 @@
           <FullNameCategoryReference ID="Primitive" />
         </p:NodeReference>
         <Patch Id="SpDgXbXvnyxM3KTVoXfZFH">
-          <Canvas Id="Cx8V4na6tEqOJQy1dHOUgT">
+          <Canvas Id="Cx8V4na6tEqOJQy1dHOUgT" CanvasType="Group">
             <Node Bounds="323,184,61,13" Id="BUdhXVvYJyyPYrcUZxCMkl">
               <p:NodeReference LastCategoryFullName="glTF" LastSymbolSource="VL.glTF.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -416,8 +415,8 @@
                 </CategoryReference>
               </p:NodeReference>
               <Pin Id="Fk0YHB8Ic0jMHZK6rp4uJD" Name="Input" Kind="InputPin" />
-              <Pin Id="JfEPq4tgdIML75hUFnkIuA" Name="Output" Kind="OutputPin" />
               <Pin Id="ADXnDhK5T97O7NymTadCwp" Name="Camera" Kind="InputPin" />
+              <Pin Id="JfEPq4tgdIML75hUFnkIuA" Name="Output" Kind="OutputPin" />
             </Node>
             <ControlPoint Id="C2XI27uUHobNVyeAWmqoeC" Bounds="324,144" />
             <ControlPoint Id="P4wCFe4BOpoMV3MSeBphUs" Bounds="324,222" />
@@ -452,9 +451,9 @@
           <FullNameCategoryReference ID="Primitive" />
         </p:NodeReference>
         <Patch Id="Ar4ORCRvjp4MyR0Z2odfY3">
-          <Canvas Id="TzzdZMOwWJgPDdciO3zzTJ">
+          <Canvas Id="TzzdZMOwWJgPDdciO3zzTJ" CanvasType="Group">
             <Node Bounds="319,310,85,13" AutoConnect="true" Id="AcRw9NH1pJRORmXvlgFtc3">
-              <p:NodeReference LastCategoryFullName="glTF" LastSymbolSource="VL.glTF.vl" LastDependency="VVVV.glTF.vl">
+              <p:NodeReference LastCategoryFullName="glTF" LastSymbolSource="VL.glTF.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessNode" Name="Hierarchy" />
               </p:NodeReference>
@@ -476,13 +475,13 @@
           <Patch Id="Baqgi0hyOOyQCwU9nja7vD" Name="Update">
             <Pin Id="CuXB9v7uXcCMb9j8tzwryo" Name="Input" Kind="InputPin" />
             <Pin Id="HpU0v9djZ58LKxvXXzgTRp" Name="Scene Index" Kind="InputPin" />
+            <Pin Id="EfcfEqvCOk8QINnpAuahAR" Name="Animation" Kind="InputPin" />
+            <Pin Id="HL16AHysHFPN8i1B7SaufD" Name="Time" Kind="InputPin" />
             <Pin Id="G87QE2w3zpFNYyOkM2DeH0" Name="Has Mesh" Kind="OutputPin" />
             <Pin Id="LjJNctrPMpSOlr2Ilf31CI" Name="Transform" Kind="OutputPin" />
             <Pin Id="L7s7QnQMZ0QNQfo9tpMJWG" Name="Primitive Count" Kind="OutputPin" />
             <Pin Id="TrT9eP9FKaKOCxFTIxfGSW" Name="ID" Kind="OutputPin" />
             <Pin Id="Ou0c8N7RTScPBU6w0W7vMi" Name="Node IDs" Kind="OutputPin" />
-            <Pin Id="EfcfEqvCOk8QINnpAuahAR" Name="Animation" Kind="InputPin" />
-            <Pin Id="HL16AHysHFPN8i1B7SaufD" Name="Time" Kind="InputPin" />
             <Pin Id="DHd1YYAsfG8PQl6SpzcZFa" Name="Output" Kind="OutputPin" />
             <Pin Id="GnEQATKZwdMLSAProqCl4b" Name="Animations" Kind="OutputPin" />
             <Pin Id="FEXUq00fwBINhpH2CbViUF" Name="Node Mesh" Kind="OutputPin" />
@@ -498,13 +497,13 @@
     ************************ Animation ************************
 
 -->
-      <Node Name="Animation" Category="VVVV.glTF" Bounds="620,200" Id="Q9ZmTy2JwQMNWroAyOS0l3">
+      <Node Name="Animation" Bounds="620,200" Id="Q9ZmTy2JwQMNWroAyOS0l3">
         <p:NodeReference>
           <Choice Kind="ContainerDefinition" Name="Process" />
           <FullNameCategoryReference ID="Primitive" />
         </p:NodeReference>
         <Patch Id="BkBVmjdFpzBOKOJ4cRQHXv">
-          <Canvas Id="H7n4wkhx7eIOvrfSHmGMMY">
+          <Canvas Id="H7n4wkhx7eIOvrfSHmGMMY" CanvasType="Group">
             <Node Bounds="230,176" AutoConnect="true" Id="GkRtzFuueHKOxJFn6wA8dw">
               <p:NodeReference LastCategoryFullName="glTF" LastSymbolSource="VL.glTF.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -545,7 +544,7 @@
           <FullNameCategoryReference ID="Primitive" />
         </p:NodeReference>
         <Patch Id="RUbk2TP5evoMbo5KAPFPnp">
-          <Canvas Id="LeJy6yNSOW6MOjHv9LaTr5">
+          <Canvas Id="LeJy6yNSOW6MOjHv9LaTr5" CanvasType="Group">
             <Node Bounds="363,183,45,13" AutoConnect="true" Id="SiB5NNSnQtfPnnbPWnjT1t">
               <p:NodeReference LastCategoryFullName="glTF" LastSymbolSource="VL.glTF.vl" LastDependency="VVVV.glTF.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
